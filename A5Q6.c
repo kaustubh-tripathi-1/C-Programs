@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    float num1, num2, num3, average;
+    printf("Enter three numbers: \n");
+    scanf("%f %f %f", &num1, &num2, &num3);
+    average = (num1 + num2 + num3) / 3;
+    printf("Average: %.2f\n", average);
+    getch();
+    return 0;
+}
